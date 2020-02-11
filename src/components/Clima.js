@@ -16,7 +16,7 @@ const Clima = ({resultado}) => {
     
     <div className="card-panel white col s12">
     <div className="black-text">
-    <h2>El clima de {name} es: </h2>
+    <h2>El clima de {name} </h2>
     
     <p className="temperatura">
     {parseFloat (main.temp-kelvin,10).toFixed(2) } <span>&#x2103;</span>

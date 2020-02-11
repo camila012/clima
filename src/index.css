@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: #080a50;
 }
 nav .brand-logo {
   display: block;
@@ -71,7 +72,7 @@ background-color: #000608;
 .card-panel p {
   text-align: center;
   font-size: 1.4rem;
-  color: #82c2f7;
+  color: #ecf1f5;
 }
 .temperatura {
   font-size: 4rem!important;
@@ -79,7 +80,7 @@ background-color: #000608;
 .temperatura span {
   font-size: 2rem!important;
   vertical-align: super;
-  color: #09c8f8;
+  color: #1013d8;
 }
 
 .btn-block {
@@ -94,9 +95,9 @@ background-color: #000608;
   color: #FFF!important;
 }
 .black-text{
-  background-color: #0b2b64;
+  background-color: #53bedf;
   border-radius: 20px;
   width: center;
-  font-family:courier,arial,helvética
+ 
 }
 
