@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+nav .brand-logo {
+  display: block;
+  text-align: center;
+  position: relative;
+  background-color: #0b2b64;
+  font-family:courier,arial,helvética
+}
+.input-field label {
+  color: #f9f9fa;
+  
+}
+
+.input-field input[type=text]:focus + label {
+  color: white;
+} 
+
+.input-field input[type=text]:focus {
+  border-bottom: 10px solid #1c9999;
+  box-shadow: 0 3px 0 0 rgb(19, 56, 158);
+}
+
+input[type=text]:not(.browser-default) {
+  border-bottom: 1px solid white;
+  color: #fff;
+}
+input[type=text]:not(.browser-default):focus:not([readonly]) {
+  border-bottom: 1px solid white;
+  -webkit-box-shadow: 0 1px 0 0 white;
+  box-shadow: 0 1px 0 0 white;
+}
+input[type=text]:not(.browser-default):focus:not([readonly]) + label {
+  color: white;
+}
+
+.contenedor-form {
+  padding: 3rem 0 1px 0;
+  background-color: #4db9f8;
+  font-family:courier,arial,helvética;
+}
+.clima{
+background-color: #000608;
+
+}
+.mensaje {
+  text-align: center;
+  font-size: 2rem;
+  font-family:courier,arial,helvética;
+}
+.buscador i {
+  width: 100%;
+}
+.error {
+  padding: 1rem!important;
+  color:white;
+  margin-top: 3rem;
+  text-align: center;
+  text-emphasis: left;
+}
+.card-panel h2 {
+  font-size: 1.6rem;
+  text-align: center;
+  color: #080a50;
+  background-color: #fff;
+  font-family:courier,arial,helvética
+}
+.card-panel p {
+  text-align: center;
+  font-size: 1.4rem;
+  color: #82c2f7;
+}
+.temperatura {
+  font-size: 4rem!important;
+}
+.temperatura span {
+  font-size: 2rem!important;
+  vertical-align: super;
+  color: #09c8f8;
+}
+
+.btn-block {
+  display: block!important;
+  
+  
+}
+
+.error {
+  padding: 1rem!important;
+  text-align: center!important;
+  color: #FFF!important;
+}
+.black-text{
+  background-color: #0b2b64;
+  border-radius: 20px;
+  width: center;
+  font-family:courier,arial,helvética
+}
+
